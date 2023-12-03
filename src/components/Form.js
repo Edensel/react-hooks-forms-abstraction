@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 function Form() {
-  const [firstName, setFirstName] = useState("John");
-  const [lastName, setLastName] = useState("Henry");
+  const [firstName, setFirstName] = useState("Densel");
+  const [lastName, setLastName] = useState("Esekon");
 
   function handleFirstNameChange(event) {
     setFirstName(event.target.value);
